@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="mainWrap">
-      {/* <Modal /> */}
+       <Modal />
       <div className="mapContainer">
         <MapContainer bounds={coords} scrollWheelZoom={false}>
           <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
